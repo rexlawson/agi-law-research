@@ -2,6 +2,8 @@
 
 面向 AI/AGI 监管的法律研究笔记库。目标：把每次监管变动、判例与规则变化，沉淀成**可复用的研究长文**与**投 AI 公司时能直接用的尽调问题**。
 
+**线上地址**：https://github.com/rexlawson/agi-law-research （public，main 分支）
+
 ## 这个仓库是什么
 
 - **articles/**：研究长文。完整论证链 + 全部脚注 + 官方原文链接。
