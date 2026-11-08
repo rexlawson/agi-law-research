@@ -11,14 +11,14 @@
         "中国"
       ],
       "difficulty": 3,
-      "status": "ready",
+      "status": "published",
       "date": "2026-11-08",
-      "file": "genai-ai-measurement-scope.md",
-      "github_url": "",
+      "file": "2026-11-08-genai-ai-measurement-scope.md",
+      "github_url": "https://github.com/rexlawson/agi-law-research/blob/main/articles/2026-11-08-genai-ai-measurement-scope.md",
       "xhs_url": "",
       "invest_hook": "模型/API公司的'谁是提供者'决定自身义务边界，直接影响成本结构与上市地选择",
       "notes": "notes/2026-11-08-生成式人工智能服务管理暂行办法-国家网信办.md",
-      "note": "留证完成：全部24条已核（网信网+中国政府网交叉验证）。核心：第二条适用边界三款结构 / 第二十二条(二)提供者含API方式 / 第二十条境外服务技术处置 / 第十七条安全评估+算法备案 / 第十九条五项说明义务 / 第二十一条本办法自身不设罚款 / 第二十三条外资准入。写作前待补：本办法现行有效性核验 + 配套文件 + 备案公告与执法实例"
+      "note": "已发布长文：暂行办法适用边界（内部使用/API调用/向境内公众提供）。证据24条+7份2026年落地材料，8个脚注。核心论点：API提供方属'提供者'；备案(模型1112款)/登记(应用731款)双轨+公示义务；第20条境外服务技术处置；第21条不设罚款但可下架关闭"
     },
     {
       "id": 2,
