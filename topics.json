@@ -1,0 +1,294 @@
+{
+  "_about": "选题台账（唯一真相源）。status: idea / drafting / ready / published。updated_at 由脚本或人工维护。",
+  "updated_at": "2026-11-08",
+  "topics": [
+    {
+      "id": 1,
+      "slug": "genai-ai-measurement-scope",
+      "title": "生成式AI管理暂行办法的适用边界：内部使用、API调用与'向境内公众提供'",
+      "topic": "境内监管",
+      "jurisdictions": [
+        "中国"
+      ],
+      "difficulty": 3,
+      "status": "idea",
+      "date": "",
+      "file": "genai-ai-measurement-scope.md",
+      "github_url": "",
+      "xhs_url": "",
+      "invest_hook": "模型/API公司的'谁是提供者'决定自身义务边界，直接影响成本结构与上市地选择"
+    },
+    {
+      "id": 2,
+      "slug": "llm-filing-registry",
+      "title": "大模型备案与登记实践全景：名单、节奏与未备案即上线的责任",
+      "topic": "境内监管",
+      "jurisdictions": [
+        "中国"
+      ],
+      "difficulty": 2,
+      "status": "idea",
+      "date": "",
+      "file": "llm-filing-registry.md",
+      "github_url": "",
+      "xhs_url": "",
+      "invest_hook": "备案状态是AI公司投资的前置条件，未备案收入应剔除"
+    },
+    {
+      "id": 3,
+      "slug": "three-rule-overlap",
+      "title": "算法推荐、深度合成、生成式AI三套规则的叠加适用与重复合规成本",
+      "topic": "境内监管",
+      "jurisdictions": [
+        "中国"
+      ],
+      "difficulty": 2,
+      "status": "idea",
+      "date": "",
+      "file": "three-rule-overlap.md",
+      "github_url": "",
+      "xhs_url": "",
+      "invest_hook": "合规成本直接影响毛利假设与运营费用预测"
+    },
+    {
+      "id": 4,
+      "slug": "aigc-labeling-duty",
+      "title": "AI生成合成内容标识义务：显式、隐式与落地落差",
+      "topic": "境内监管",
+      "jurisdictions": [
+        "中国"
+      ],
+      "difficulty": 2,
+      "status": "idea",
+      "date": "",
+      "file": "aigc-labeling-duty.md",
+      "github_url": "",
+      "xhs_url": "",
+      "invest_hook": "内容型产品的改造工作量与上线时点，影响收入确认节奏"
+    },
+    {
+      "id": 5,
+      "slug": "cross-border-data-in-ai",
+      "title": "数据出境三条路径在AI训练与推理场景的适用：境外API调用算不算出境",
+      "topic": "数据合规",
+      "jurisdictions": [
+        "中国"
+      ],
+      "difficulty": 3,
+      "status": "idea",
+      "date": "",
+      "file": "cross-border-data-in-ai.md",
+      "github_url": "",
+      "xhs_url": "",
+      "invest_hook": "跨境模型调用是海外AI公司在中国市场的结构性风险"
+    },
+    {
+      "id": 6,
+      "slug": "pipl-in-training",
+      "title": "个人信息保护法在训练数据与推理环节的适用",
+      "topic": "数据合规",
+      "jurisdictions": [
+        "中国"
+      ],
+      "difficulty": 3,
+      "status": "idea",
+      "date": "",
+      "file": "pipl-in-training.md",
+      "github_url": "",
+      "xhs_url": "",
+      "invest_hook": "数据来源合规是AI公司估值中最核心的变量之一"
+    },
+    {
+      "id": 7,
+      "slug": "ai-ethics-review",
+      "title": "科技伦理审查对高风险AI研发的影响",
+      "topic": "境内监管",
+      "jurisdictions": [
+        "中国"
+      ],
+      "difficulty": 2,
+      "status": "idea",
+      "date": "",
+      "file": "ai-ethics-review.md",
+      "github_url": "",
+      "xhs_url": "",
+      "invest_hook": "医疗、金融、自动驾驶类标的的额外门槛"
+    },
+    {
+      "id": 13,
+      "slug": "training-data-copyright-defense",
+      "title": "训练数据的版权抗辩在中国法下的成立条件",
+      "topic": "知识产权",
+      "jurisdictions": [
+        "中国"
+      ],
+      "difficulty": 3,
+      "status": "idea",
+      "date": "",
+      "file": "training-data-copyright-defense.md",
+      "github_url": "",
+      "xhs_url": "",
+      "invest_hook": "侵权索赔是否构成或有负债"
+    },
+    {
+      "id": 14,
+      "slug": "ai-output-authorship",
+      "title": "AI生成内容的著作权归属：人机贡献如何划分",
+      "topic": "知识产权",
+      "jurisdictions": [
+        "中国"
+      ],
+      "difficulty": 2,
+      "status": "idea",
+      "date": "",
+      "file": "ai-output-authorship.md",
+      "github_url": "",
+      "xhs_url": "",
+      "invest_hook": "影响IP资产的可转让性与估值"
+    },
+    {
+      "id": 15,
+      "slug": "usco-ai-reports",
+      "title": "美国版权局AI系列报告：human authorship与训练数据",
+      "topic": "知识产权",
+      "jurisdictions": [
+        "美国"
+      ],
+      "difficulty": 2,
+      "status": "idea",
+      "date": "",
+      "file": "usco-ai-reports.md",
+      "github_url": "",
+      "xhs_url": "",
+      "invest_hook": "出海公司的美国诉讼风险"
+    },
+    {
+      "id": 16,
+      "slug": "eu-ai-act-gpai",
+      "title": "欧盟AI法案GPAI条款：训练数据摘要、版权政策与技术文档",
+      "topic": "国际比较",
+      "jurisdictions": [
+        "欧盟"
+      ],
+      "difficulty": 2,
+      "status": "idea",
+      "date": "",
+      "file": "eu-ai-act-gpai.md",
+      "github_url": "",
+      "xhs_url": "",
+      "invest_hook": "直接决定海外模型公司的合规成本与出海时间表"
+    },
+    {
+      "id": 17,
+      "slug": "dsm-text-data-mining",
+      "title": "欧盟DSM指令第4条与文本数据挖掘例外的适用",
+      "topic": "国际比较",
+      "jurisdictions": [
+        "欧盟"
+      ],
+      "difficulty": 2,
+      "status": "idea",
+      "date": "",
+      "file": "dsm-text-data-mining.md",
+      "github_url": "",
+      "xhs_url": "",
+      "invest_hook": "训练数据合法性的区域分裂"
+    },
+    {
+      "id": 21,
+      "slug": "ai-hallucination-liability",
+      "title": "AI幻觉致害的侵权归责：供给者与使用者的责任分配",
+      "topic": "责任救济",
+      "jurisdictions": [
+        "中国"
+      ],
+      "difficulty": 3,
+      "status": "idea",
+      "date": "",
+      "file": "ai-hallucination-liability.md",
+      "github_url": "",
+      "xhs_url": "",
+      "invest_hook": "责任上限条款在客户合同里能否真的转移"
+    },
+    {
+      "id": 31,
+      "slug": "ai-service-contract-clauses",
+      "title": "AI服务合同的标准条款包：免责、输出权属与赔偿上限",
+      "topic": "商业合同",
+      "jurisdictions": [
+        "中国"
+      ],
+      "difficulty": 2,
+      "status": "idea",
+      "date": "",
+      "file": "ai-service-contract-clauses.md",
+      "github_url": "",
+      "xhs_url": "",
+      "invest_hook": "直接进尽调合同清单"
+    },
+    {
+      "id": 32,
+      "slug": "ai-procurement-data-roles",
+      "title": "AI采购中的数据处理者与受托方角色分配",
+      "topic": "商业合同",
+      "jurisdictions": [
+        "中国"
+      ],
+      "difficulty": 2,
+      "status": "idea",
+      "date": "",
+      "file": "ai-procurement-data-roles.md",
+      "github_url": "",
+      "xhs_url": "",
+      "invest_hook": "客户合同是AI公司最大的负债来源之一"
+    },
+    {
+      "id": 35,
+      "slug": "compliance-maturity-valuation",
+      "title": "AI公司监管合规成熟度如何折算为估值调整",
+      "topic": "投融资",
+      "jurisdictions": [
+        "中国"
+      ],
+      "difficulty": 2,
+      "status": "idea",
+      "date": "",
+      "file": "compliance-maturity-valuation.md",
+      "github_url": "",
+      "xhs_url": "",
+      "invest_hook": "本系列的差异化标签：可操作的估值调整区间逻辑"
+    },
+    {
+      "id": 36,
+      "slug": "filing-as-closing-condition",
+      "title": "备案与资质缺失作为交割先决条件",
+      "topic": "投融资",
+      "jurisdictions": [
+        "中国"
+      ],
+      "difficulty": 2,
+      "status": "idea",
+      "date": "",
+      "file": "filing-as-closing-condition.md",
+      "github_url": "",
+      "xhs_url": "",
+      "invest_hook": "交割条件清单模板"
+    },
+    {
+      "id": 40,
+      "slug": "research-to-dd-questions",
+      "title": "从监管研究到投研：把一篇研究变成10个尽调问题",
+      "topic": "投融资",
+      "jurisdictions": [
+        "中国"
+      ],
+      "difficulty": 1,
+      "status": "idea",
+      "date": "",
+      "file": "research-to-dd-questions.md",
+      "github_url": "",
+      "xhs_url": "",
+      "invest_hook": "可复用的转化模板，系列方法论收口"
+    }
+  ]
+}
