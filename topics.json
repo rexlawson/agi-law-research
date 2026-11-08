@@ -11,12 +11,14 @@
         "中国"
       ],
       "difficulty": 3,
-      "status": "idea",
-      "date": "",
+      "status": "researching",
+      "date": "2026-11-08",
       "file": "genai-ai-measurement-scope.md",
       "github_url": "",
       "xhs_url": "",
-      "invest_hook": "模型/API公司的'谁是提供者'决定自身义务边界，直接影响成本结构与上市地选择"
+      "invest_hook": "模型/API公司的'谁是提供者'决定自身义务边界，直接影响成本结构与上市地选择",
+      "notes": "notes/2026-11-08-生成式人工智能服务管理暂行办法-国家网信办.md",
+      "note": "已留证：第二条适用边界原文（两官方站点交叉核验）；待补第四至十七条全文与现行有效性核验"
     },
     {
       "id": 2,
