@@ -33,7 +33,8 @@ def load_topics(repo_dir):
 def build_rows(topics, repo_dir):
     rows = ["| 状态 | 标题 | 议题 | 日期 |", "|---|---|---|---|"]
     articles_dir = os.path.join(repo_dir, "articles")
-    for t in sorted(topics, key=lambda x: (x.get("status", ""), x.get("id", 0))):
+    # 已发布的排在最前，其余按选题编号
+    for t in sorted(topics, key=lambda x: (0 if x.get("status") == "published" else 1, x.get("id", 0))):
         slug = t.get("slug", "")
         fname = t.get("file") or (slug + ".md")
         exists = os.path.exists(os.path.join(articles_dir, fname))
