@@ -1,6 +1,6 @@
 # 小红书草稿（清单型）
 
-来源长文：https://github.com/rexlawson/agi-law-research/blob/main/articles/2026-11-08-genai-ai-measurement-scope.md
+来源长文：https://github.com/rexlawson/agi-law-research/blob/main/articles/2026-11-09-genai-provider-scope.md
 状态：待 Rex 确认后发布（建议与结论型间隔 2 天发布）
 
 标题：投AI公司，先查这3个地方

@@ -9,7 +9,7 @@
 ## 已写
 
 <!-- WRITTEN:START -->
-- [生成式AI管理暂行办法的适用边界：内部使用、API调用与'向境内公众提供'（2026-11-08）](https://github.com/rexlawson/agi-law-research/blob/main/articles/2026-11-08-genai-ai-measurement-scope.md) —— 只提供API的公司算不算“提供者”；模型备案与应用登记的双轨；以及怎么用十分钟查一家公司的合规状态。
+- [只卖API的公司，算不算"提供者"（2026-11-09）](https://github.com/rexlawson/agi-law-research/blob/main/articles/2026-11-09-genai-provider-scope.md) —— 只提供API的公司算不算"提供者"；模型备案与应用登记的双轨；以及怎么用十分钟查一家公司的合规状态。
 <!-- WRITTEN:END -->
 
 ## 接下来想写
