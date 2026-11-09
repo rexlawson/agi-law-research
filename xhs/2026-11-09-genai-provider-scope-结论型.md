@@ -3,6 +3,7 @@
 来源长文：https://github.com/rexlawson/agi-law-research/blob/main/articles/2026-11-09-genai-provider-scope.md
 封面：assets/cover-2026-11-09-provider-scope.png
 状态：已发布（2026-11-09 22:43）
+最早可发日：2026-11-09
 发布链接：https://www.xiaohongshu.com/explore/6af1dc2c000000003401fe2c
 
 标题：只卖API也算"提供者"吗

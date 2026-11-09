@@ -2,7 +2,9 @@
 
 来源长文：https://github.com/rexlawson/agi-law-research/blob/main/articles/2026-11-09-genai-provider-scope.md
 封面：assets/cover-2026-11-09-dd-checklist.png
-状态：待发布（建议 2026-11-11 之后，与结论型间隔 2 天）
+状态：待发布
+最早可发日：2026-11-11
+（建议与结论型间隔 2 天）
 
 标题：投AI公司，先查这3个地方
 （备选：10分钟，判断一家AI公司合不合规）
