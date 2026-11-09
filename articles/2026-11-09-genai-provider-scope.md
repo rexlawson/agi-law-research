@@ -6,7 +6,7 @@ jurisdictions: [中国]
 status: published
 source_count: 5
 github_url: https://github.com/rexlawson/agi-law-research/blob/main/articles/2026-11-09-genai-provider-scope.md
-xhs_url: ""
+xhs_url: "https://www.xiaohongshu.com/explore/6af1dc2c000000003401fe2c"
 ---
 
 # 只卖API的公司，算不算"提供者"
@@ -96,3 +96,5 @@ xhs_url: ""
 [^3]: 《中央网信办深入开展"清朗·整治AI应用乱象"专项行动第二阶段工作》，2026年9月2日，https://www.cac.gov.cn/2026-09/02/c_1790099041364574.htm ，访问日期2026年11月9日。
 [^4]: 《国家互联网信息办公室关于发布第十九批深度合成服务算法备案信息的公告》，2026年10月30日，https://www.cac.gov.cn/2026-10/30/c_1795114304542687.htm ，访问日期2026年11月9日。备案清单可通过互联网信息服务算法备案系统 https://beian.cac.gov.cn 查询。
 [^5]: 中国政府网国务院部门文件库（sousuo.www.gov.cn，zhengcelibrary_bm，标题检索"生成式人工智能服务管理暂行办法"），返回记录数1，发布日期2023年，发文字号为七部门令第15号。检索日期2026年11月9日。
+
+小红书同版：https://www.xiaohongshu.com/explore/6af1dc2c000000003401fe2c

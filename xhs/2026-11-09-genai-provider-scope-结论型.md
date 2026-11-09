@@ -2,7 +2,8 @@
 
 来源长文：https://github.com/rexlawson/agi-law-research/blob/main/articles/2026-11-09-genai-provider-scope.md
 封面：assets/cover-2026-11-09-provider-scope.png
-状态：待 Rex 确认后发布
+状态：已发布（2026-11-09 22:43）
+发布链接：https://www.xiaohongshu.com/explore/6af1dc2c000000003401fe2c
 
 标题：只卖API也算"提供者"吗
 （备选：投AI公司前，先看它的备案号）
@@ -75,9 +76,9 @@
 
 现在能了。
 
-1️⃣ 看产品详情页：公示的模型名称和备案号在不在
-2️⃣ 到 beian.cac.gov.cn 核对备案号真伪和备案主体
-3️⃣ 检索有没有出现在"清朗"通报里
+1. 看产品详情页：公示的模型名称和备案号在不在
+2. 到 beian.cac.gov.cn 核对备案号真伪和备案主体
+3. 检索有没有出现在"清朗"通报里
 
 三步，十分钟。
 
