@@ -5,9 +5,11 @@
 # 仓库默认 ~/agi-law-research，可用 REPO_DIR 环境变量覆盖。
 #
 # 认证：优先用已导出的 GITHUB_TOKEN；否则自动从 Windows GitHub CLI（keyring）取。
-# 推送：先走 git over HTTPS（带超时与重试）；失败则自动回退到 REST Git Data API
-#       （scripts/push_via_api.py，自带内容自校验）。本机 git over HTTPS 不稳定，
-#       API 通道才是可靠路径。
+#
+# 推送：git over HTTPS 在本网络不稳定（SSL EOF / 504），所以不靠 git 的返回值判定成败：
+#   1) git push 先 best-effort 试一次；
+#   2) 随后一律跑 push_via_api.py —— 它按 tree blob 比对，幂等，且自带内容自校验，
+#      最终的"推送完成"以它的自校验结果为准。
 #
 # 安全：token 全程只在环境变量里，不写入 remote URL、不落盘到 git 配置。
 
@@ -38,21 +40,11 @@ else
   git commit -m "$MSG"
 fi
 
-# --- 推送：先 git，失败回退 API ---
-push_ok=0
-for i in 1 2; do
-  if timeout 60 git -c credential.helper='!f() { echo username=x-access-token; echo password=$GITHUB_TOKEN; }; f' push 2>&1 | tail -2; then
-    if timeout 20 git ls-remote --heads origin main >/dev/null 2>&1; then push_ok=1; fi
-  fi
-  [ "$push_ok" = "1" ] && break
-  echo "git push 第 $i 次未成功，3 秒后重试" >&2
-  sleep 3
-done
+# --- 1) git push：best effort，失败不致命 ---
+echo "尝试 git push（best-effort）"
+timeout 60 git -c credential.helper='!f() { echo username=x-access-token; echo password=$GITHUB_TOKEN; }; f' push 2>&1 | tail -2 || true
 
-if [ "$push_ok" != "1" ]; then
-  echo "git over HTTPS 不稳定，改用 REST Git Data API 推送" >&2
-  python3 scripts/push_via_api.py .
-  echo "提示：API 推送会重建 commit（SHA 与本地不同），如需本地对齐执行：git fetch origin main && git reset --hard origin/main" >&2
-else
-  echo "推送完成 -> $(git remote get-url origin)"
-fi
+# --- 2) API 路径：权威结果（幂等 + 自校验）---
+echo "以 API 路径核验/补推（幂等，自带内容自校验）"
+python3 scripts/push_via_api.py .
+echo "推送完成 -> $(git remote get-url origin)"
