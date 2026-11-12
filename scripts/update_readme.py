@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""把 topics.json 里已发布的文章，渲染成 README"已写"一节的列表（幂等）。
+"""把 topics.json 里已发布的文章，渲染成 README「已写」一节的列表（幂等）。
 
 README 中 <!-- WRITTEN:START --> 与 <!-- WRITTEN:END --> 之间会被整体替换。
+小红书链接一并从 topics.json 渲染（xhs_url / xhs_notes），避免手写链接被脚本覆盖。
 用法: python3 update_readme.py [repo_dir]
 """
 import json
@@ -11,6 +12,22 @@ import sys
 
 MARK_START = "<!-- WRITTEN:START -->"
 MARK_END = "<!-- WRITTEN:END -->"
+
+
+def xhs_lines(t):
+    out = []
+    url = t.get("xhs_url")
+    if url:
+        if t.get("xhs_status") == "rejected_by_platform":
+            out.append("  小红书同版（平台审核未通过，已下架）：%s" % url)
+        else:
+            out.append("  小红书同版：%s" % url)
+    for n in (t.get("xhs_notes") or []):
+        label = "小红书（%s）" % (n.get("type") or "笔记")
+        if n.get("risk"):
+            label += "，%s" % n["risk"]
+        out.append("  %s：%s" % (label, n.get("url") or ""))
+    return out
 
 
 def main():
@@ -29,6 +46,7 @@ def main():
         summary = (t.get("summary") or "").strip()
         head = "- [%s（%s）](%s)" % (title, date, url)
         lines.append(head + (" —— " + summary if summary else ""))
+        lines.extend(xhs_lines(t))
     block = MARK_START + "\n" + "\n".join(lines) + "\n" + MARK_END
 
     readme = os.path.join(repo_dir, "README.md")

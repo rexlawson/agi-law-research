@@ -10,7 +10,7 @@
       "url": "https://github.com/rexlawson/agi-law-research/blob/main/articles/2026-11-09-genai-provider-scope.md",
       "summary": "只提供API的公司算不算\"提供者\"；模型备案与应用登记的双轨；以及怎么用十分钟查一家公司的合规状态。",
       "xhs_url": "https://www.xiaohongshu.com/explore/6af1dc2c000000003401fe2c",
-      "xhs_status": "published",
+      "xhs_status": "rejected_by_platform",
       "xhs_published_at": "2026-11-09 22:43",
       "xhs_notes": [
         {
@@ -18,9 +18,12 @@
           "type": "清单型",
           "url": "https://www.xiaohongshu.com/explore/6af5b2e70000000022039295",
           "status": "published",
-          "published_at": "2026-11-12 20:36"
+          "published_at": "2026-11-12 20:36",
+          "risk": "同一方式（headless 浏览器托管发布）发布，存在被同样处置的风险"
         }
-      ]
+      ],
+      "xhs_disposed_at": "2026-11-10 23:47",
+      "xhs_dispose_reason": "平台判定「利用AI托管进行发文/互动」，该篇笔记已不可被他人查看"
     },
     {
       "title": "AI生成合成内容的标识义务：《暂行办法》第十二条和标识办法怎么接",

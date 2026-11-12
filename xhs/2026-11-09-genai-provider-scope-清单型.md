@@ -3,6 +3,7 @@
 来源长文：https://github.com/rexlawson/agi-law-research/blob/main/articles/2026-11-09-genai-provider-scope.md
 封面：assets/cover-2026-11-09-dd-checklist.png
 状态：已发布（2026-11-12 20:36）
+风险：与笔记#1 同一发布方式（headless 浏览器托管），平台可能按同理由处置
 最早可发日：2026-11-11
 发布链接：https://www.xiaohongshu.com/explore/6af5b2e70000000022039295
 （建议与结论型间隔 2 天）

@@ -10,8 +10,8 @@
 
 <!-- WRITTEN:START -->
 - [只卖API的公司，算不算"提供者"（2026-11-09）](https://github.com/rexlawson/agi-law-research/blob/main/articles/2026-11-09-genai-provider-scope.md) —— 只提供API的公司算不算"提供者"；模型备案与应用登记的双轨；以及怎么用十分钟查一家公司的合规状态。
-  小红书同版：https://www.xiaohongshu.com/explore/6af1dc2c000000003401fe2c
-  小红书（清单型）：https://www.xiaohongshu.com/explore/6af5b2e70000000022039295
+  小红书同版（平台审核未通过，已下架）：https://www.xiaohongshu.com/explore/6af1dc2c000000003401fe2c
+  小红书（清单型），同一方式（headless 浏览器托管发布）发布，存在被同样处置的风险：https://www.xiaohongshu.com/explore/6af5b2e70000000022039295
 <!-- WRITTEN:END -->
 
 ## 接下来想写

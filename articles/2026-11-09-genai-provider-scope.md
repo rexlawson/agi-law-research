@@ -7,6 +7,8 @@ status: published
 source_count: 5
 github_url: https://github.com/rexlawson/agi-law-research/blob/main/articles/2026-11-09-genai-provider-scope.md
 xhs_url: "https://www.xiaohongshu.com/explore/6af1dc2c000000003401fe2c"
+xhs_status: rejected_by_platform
+xhs_disposed_at: "2026-11-10 23:47"
 ---
 
 # 只卖API的公司，算不算"提供者"

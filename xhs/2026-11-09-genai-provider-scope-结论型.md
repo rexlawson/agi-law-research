@@ -2,7 +2,8 @@
 
 来源长文：https://github.com/rexlawson/agi-law-research/blob/main/articles/2026-11-09-genai-provider-scope.md
 封面：assets/cover-2026-11-09-provider-scope.png
-状态：已发布（2026-11-09 22:43）
+状态：已发布（2026-11-09 22:43）→ **平台审核未通过，已于 2026-11-10 23:47 被处置，该篇笔记已不可被他人查看**
+处置原因：平台判定「利用AI托管进行发文/互动」（涉及利用AI工具托管运营账号）
 最早可发日：2026-11-09
 发布链接：https://www.xiaohongshu.com/explore/6af1dc2c000000003401fe2c
 
