@@ -1,6 +1,6 @@
 {
   "_about": "选题台账：只记已经写成的，和接下来真要写的。",
-  "updated_at": "2026-11-09",
+  "updated_at": "2026-11-12",
   "topics": [
     {
       "title": "只卖API的公司，算不算\"提供者\"",
@@ -11,7 +11,16 @@
       "summary": "只提供API的公司算不算\"提供者\"；模型备案与应用登记的双轨；以及怎么用十分钟查一家公司的合规状态。",
       "xhs_url": "https://www.xiaohongshu.com/explore/6af1dc2c000000003401fe2c",
       "xhs_status": "published",
-      "xhs_published_at": "2026-11-09 22:43"
+      "xhs_published_at": "2026-11-09 22:43",
+      "xhs_notes": [
+        {
+          "title": "投AI公司，先查这3个地方",
+          "type": "清单型",
+          "url": "https://www.xiaohongshu.com/explore/6af5b2e70000000022039295",
+          "status": "published",
+          "published_at": "2026-11-12 20:36"
+        }
+      ]
     },
     {
       "title": "AI生成合成内容的标识义务：《暂行办法》第十二条和标识办法怎么接",
