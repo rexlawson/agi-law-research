@@ -4,3 +4,6 @@ __pycache__/
 .env
 token*.txt
 *.local.md
+
+# 本地法规原文档案（体积大，可用 scripts/fetch_regs.py 复现）
+regs/
